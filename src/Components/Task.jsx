@@ -15,7 +15,9 @@ function Task({ todos, setTodos, filteredTodos, setStatus, clearHandler }) {
         })}
       </div>
       <div className="filter--wrapper">
-        <h3 className="items--left">{todos.length} items left</h3>
+        <h3 className="items--left">
+          {todos.length ? todos.length : 0} items left
+        </h3>
         <div className="filter--links">
           <span onClick={statusHandler}>All</span>
           <span onClick={statusHandler}>Active</span>
