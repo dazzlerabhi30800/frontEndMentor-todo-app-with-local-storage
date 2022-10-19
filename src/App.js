@@ -4,11 +4,15 @@ import Header from "./Components/Header";
 import Task from "./Components/Task";
 
 function App() {
-  const [todos, setTodos] = useState(JSON.parse(localStorage.getItem("todos")));
+  const [todos, setTodos] = useState(
+    JSON.parse(localStorage.getItem("todos")) || []
+  );
   const [inputValue, setInputValue] = useState("");
   const [status, setStatus] = useState("All");
   const [filteredTodos, setFilteredTodos] = useState([]);
-  const [theme, setTheme] = useState(JSON.parse(localStorage.getItem("theme")));
+  const [theme, setTheme] = useState(
+    JSON.parse(localStorage.getItem("theme")) || false
+  );
 
   useEffect(() => {
     filterHandler();
