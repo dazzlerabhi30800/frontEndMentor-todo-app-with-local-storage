@@ -202,6 +202,12 @@ body.light .task--wrapper {
 body.light .task--card > h2 {
   color: hsl(235, 24%, 19%);
 }
+.task {
+  transition: all 0.3s linear;
+}
+.task.completed {
+  text-decoration: line-through;
+}
 .task--card > .remove--btn > i {
   font-size: 1rem;
   color: hsl(236, 9%, 71%);

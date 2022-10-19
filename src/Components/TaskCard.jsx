@@ -27,7 +27,9 @@ function TaskCard({ todo, todos, setTodos }) {
       >
         <i className="fas fa-check"></i>
       </div>
-      <h2 className="task">{todo.text}</h2>
+      <h2 className={todo.completed ? "task completed" : "task"}>
+        {todo.text}
+      </h2>
       <div className="remove--btn" onClick={handleFilter}>
         <i className="fas fa-times"></i>
       </div>
