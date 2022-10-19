@@ -311,3 +311,9 @@ body.light .clear--btn:hover {
     margin-left: 3rem;
   }
 }
+
+@media Screen and (max-width: 400px) {
+  .filter--links {
+    flex-direction: column;
+  }
+}
