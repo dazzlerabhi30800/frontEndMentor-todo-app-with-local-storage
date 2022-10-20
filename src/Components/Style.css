@@ -193,13 +193,13 @@ body.light .task--wrapper {
 .complete--circle.completed > i {
   opacity: 1;
 }
-.task--card > h2 {
+.task--card > h3 {
   font-family: "Josefin Sans", sans-serif;
   font-size: 1.1rem;
   font-weight: 400;
   color: hsl(236, 9%, 81%);
 }
-body.light .task--card > h2 {
+body.light .task--card > h3 {
   color: hsl(235, 24%, 19%);
 }
 .task {
@@ -231,13 +231,13 @@ body.light .task--card > .remove--btn > i {
 body.light .filter--wrapper {
   color: hsl(235, 24%, 19%);
 }
-.filter--wrapper > h3 {
+.filter--wrapper > h2 {
   font-weight: 400;
   font-family: "Josefin Sans", sans-serif;
   font-size: 1.1rem;
   color: hsl(236, 9%, 61%);
 }
-body.light .filter--wrapper > h3 {
+body.light .filter--wrapper > h2 {
   color: hsl(235, 24%, 19%);
 }
 
@@ -319,7 +319,6 @@ body.light .clear--btn:hover {
 }
 
 @media Screen and (max-width: 400px) {
-  
   .form--container {
     width: 90%;
   }
