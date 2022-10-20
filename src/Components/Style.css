@@ -319,9 +319,7 @@ body.light .clear--btn:hover {
 }
 
 @media Screen and (max-width: 400px) {
-  .filter--links {
-    flex-direction: column;
-  }
+  
   .form--container {
     width: 90%;
   }
