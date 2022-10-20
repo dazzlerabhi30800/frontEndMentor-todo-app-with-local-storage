@@ -322,4 +322,10 @@ body.light .clear--btn:hover {
   .filter--links {
     flex-direction: column;
   }
+  .form--container {
+    width: 90%;
+  }
+  .task--wrapper {
+    width: 90%;
+  }
 }
