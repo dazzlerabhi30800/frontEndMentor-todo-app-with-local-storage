@@ -30,7 +30,7 @@ root {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  transition: all 0.3s linear;
+  transition: all 0.3s cubic-bezier(0.6, -0.28, 0.735, 0.045);
 }
 
 body {
@@ -318,7 +318,7 @@ body.light .clear--btn:hover {
   }
 }
 
-@media Screen and (max-width: 400px) {
+@media Screen and (max-width: 500px) {
   .form--container {
     width: 90%;
   }
